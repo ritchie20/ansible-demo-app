@@ -1,0 +1,12 @@
+[loadbalancer]
+jenk1-ansible-loadbal
+
+[webserver]
+ansible-webserver1
+jenkins-ansible-web2
+
+[database]
+ansible-database
+
+[control]
+localhost ansible_connection=local
